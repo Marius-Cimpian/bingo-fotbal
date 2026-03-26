@@ -11,6 +11,7 @@ body {
     gap: 10px;
     max-width: 500px;
     margin: 30px auto;
+    max-width: 95vw;
 }
 
 .cell {
@@ -71,4 +72,41 @@ body {
 
 .hidden {
     display: none;
+}
+
+/* 🔽 MOBILE IMPROVEMENTS */
+
+
+
+@media (max-width: 600px) {
+      #board {
+        gap: 6px;
+    }
+    .cell {
+        font-size: 10px;
+        padding: 4px;
+    }
+
+    .joker {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+button {
+    font-size: 18px;
+    padding: 12px 20px;
+    margin-top: 10px;
+}
+
+body {
+    max-width: 500px;
+    margin: auto;
 }
